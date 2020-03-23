@@ -1,19 +1,62 @@
 
 <!DOCTYPE html>	
 <html>
-    <center>
+
         <title>McGuinness technology</title>
-        <meta charset="UTF-8">
+
+        <!DOCTYPE html>
+<html>
+<head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button"><b>McG</b> Tech</a>
-    <!-- Float links to the right. -->
-    <div class="w3-right">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#Updates" class="w3-bar-item w3-button">Updates</a>
       <a href="#About" class="w3-bar-item w3-button">About</a>
       <a href="#McG Infinity" class="w3-bar-item w3-button">McG Infinity</a>
@@ -22,18 +65,32 @@
       <a href="#Our Apps" class="w3-bar-item w3-button">Our Apps</a>
     <a href="#Tech Services" class="w3-bar-item w3-button">Tech Services</a>
       <a href="#Contact" class="w3-bar-item w3-button">Contact</a>
-    </div>
-  </div>
 </div>
-<br>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;Click Here</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+   
+</body>
+</html> 
+
+ 
+        
+        
     <br>
     <br>
     
+    <center>
 
-
-<br>
-    <br>
-    <br>
 
     <h1> McGuinness Technology </h1>
         <br>
@@ -90,9 +147,11 @@ Let us know if you have any questions at- ethan@ethanmcguinness.com
         <br>
         <br>
                <hr size=2 color="000000">
+    <a name="McG Infinity"></a>
+        
+    <br>
         <br>
-        <br>
-<a name="McG Infinity"></a>
+
 
 <h2>McGuinness Infinity</h2>
 -A new out of the box service, now offered in place of McG Pro and CO+. All material from both services have been combined into a single, easy to use service.
@@ -107,17 +166,21 @@ Let us know if you have any questions at- ethan@ethanmcguinness.com
 -To Access and Login to the service, click <a href="https://ethanmcguinness.wixsite.com/website-2/mcguinness-infinity">here.</a>
 <br>
         <br>
+    <br>
+    <a name="Tech Blogs"></a>
                <hr size=2 color="000000">
-<a name="Tech Blogs"></a>
+
 
         <br>
         <br>
 To Access our Tech Blogs, visit the seperate website <a href="https://ethanmcguinness.wixsite.com/techblogs">here.</a>
 <br>
         <br>
+    <br>
+    <a name="Hardware"></a>
                        <hr size=2 color="000000">
       
-<a name="Hardware"></a>
+
 
     <br>
         <br>
@@ -128,9 +191,10 @@ To Access our Tech Blogs, visit the seperate website <a href="https://ethanmcgui
         <br>
         <br>
                        <hr size=2 color="000000">
+      <a name="Our Apps"></a>
+    <br>
         <br>
-        <br>
-<a name="Our Apps"></a>
+
 
         <h2>Our Apps!</h2>
 Download the McGuinness Ultra App Today!
@@ -159,10 +223,12 @@ McGuinness Ultra App: mcgultra.ethanmcguinness.com
 Feel free to let us know if you have any questions at- ethan@ethanmcguinness.com
                 <br>
         <br>
-                       <hr size=2 color="000000">
+     
+    <hr size=2 color="000000">
+        <a name="Tech Services"></a>
         <br>
         <br>
-    <a name="Tech Services"></a>
+
 
                 <h2>Tech Services
         <br>
@@ -170,11 +236,13 @@ Feel free to let us know if you have any questions at- ethan@ethanmcguinness.com
         COMING SOON!</h2>
         <br>
         <br>
-                       <hr size=2 color="000000">
+     
+    <hr size=2 color="000000">
+    <a name="Contact"></a>
         <br>
         <br>
-<a name="Contact"></a>
 
+<h3>Contact us!</h3>
 <a href="https://forms.gle/Yeo4zis63FQu9rs3A">Subscirbe to our Newsletter and E-Updates here.</a>
 <br>
     <br>
